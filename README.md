@@ -1,5 +1,18 @@
-## Hi there 👋
+# David Dedić
+I enjoy lower-level programming, ranging from AVR assembly to CUDA
 
+The languages I would say I am proficient in: C, CUDA, ARM Asm, AVR Asm
+
+I have a working proficiency in C++, but am by no means good at it
+
+## Projects worth mentioning
+- All of my pinned projects!
+- My almost finished compiler (small_avr_compiler)
+    Finished the tokenizer, parser to generate AST, small arduino emulator, and started the actual assembly generator
+- Smooth Particle Hydrodynamics
+    Got around to implementing a fast particle rendering and storing system with bounding boxes, and made an effecient parallelized lookup system, but never finished actual fluid dynamics
+
+**Fun Note:** I am very proud of my profile picture :)
 <!--
 **Daviddedic2008/Daviddedic2008** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
