@@ -17,7 +17,7 @@ I have a working proficiency in C++, but am by no means good at it
 ## Interesting stuff outside of Git
 - I spent a few months of my life designing parts of a simple computer in a logic gate simulator.
 
-    I only got around to making a simple ALU and registers, but it was definitely fun to do. I would reccomend at least trying this once.
+    I only got around to making a simple ALU and registers, but it was definitely fun to do. I would recommend at least trying this once.
 
 **Fun Note:** I am very proud of my profile picture :)
 <!--
