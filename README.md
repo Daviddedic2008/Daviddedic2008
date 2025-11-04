@@ -8,13 +8,16 @@ I have a working proficiency in C++, but am by no means good at it
 ## Projects worth mentioning
 - All of my pinned projects!
 - My almost finished compiler (small_avr_compiler)
+  
     Finished the tokenizer, parser to generate AST, small arduino emulator, and started the actual assembly generator
 - Smooth Particle Hydrodynamics
+  
     Got around to implementing a fast particle rendering and storing system with bounding boxes, and made an effecient parallelized lookup system, but never finished actual fluid dynamics
 
 ## Interesting stuff outside of Git
 - I spent a few months of my life designing parts of a simple computer in a logic gate simulator.
-      I only got around to making a simple ALU and registers, but it was definitely fun to do. I would reccomend at least trying this once.
+
+    I only got around to making a simple ALU and registers, but it was definitely fun to do. I would reccomend at least trying this once.
 
 **Fun Note:** I am very proud of my profile picture :)
 <!--
