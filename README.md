@@ -7,6 +7,9 @@ I have a working proficiency in C++, but am by no means good at it
 
 ## Projects worth mentioning
 - All of my pinned projects!
+- My small STM32 microkernel
+
+    Finished a round robin co-op scheduler with timeouts, ipc(via mailbox systme), and a simple memory allocator
 - My almost finished compiler (small_avr_compiler)
   
     Finished the tokenizer, parser to generate AST, small arduino emulator, and started the actual assembly generator
