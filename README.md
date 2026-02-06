@@ -25,7 +25,7 @@ I have a working proficiency in C++, but am by no means good at it
   
 - I enjoy fishing & skiing(unrelated)
 
-**Fun Note:** I am very proud of my profile picture :)
+**Fun Note:** My profile picture is cool
 <!--
 **Daviddedic2008/Daviddedic2008** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
