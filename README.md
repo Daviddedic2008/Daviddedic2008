@@ -13,7 +13,7 @@ I have a working proficiency in C++, but am by no means good at it
 
 - My almost finished compiler (small_avr_compiler)
   
-    Finished the tokenizer, parser to generate AST, small arduino emulator, and started the actual assembly generator
+    The ARM one I have pinned is single-pass with a more sophisticated register allocator and register snapshotting. My older and unfinished AVR compiler is written in c++, and is multi-pass so it is kinda interesting
 - Smooth Particle Hydrodynamics
   
     Got around to implementing a fast particle rendering and storing system with bounding boxes, and made an effecient parallelized lookup system, but never finished actual fluid dynamics
