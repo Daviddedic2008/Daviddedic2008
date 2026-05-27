@@ -1,40 +1,36 @@
 # David Dedić
-I enjoy lower-level programming, ranging from AVR assembly to CUDA
+Systems, Compiler, and High-Performance Computing Engineering
 
-The languages I would say I am proficient in: C, CUDA, ARM Asm, AVR Asm
+Focusing on low-level software architectures, spanning bare-metal embedded systems, custom compiler design, and hardware-accelerated parallel computing. Software is engineered with a focus on physical hardware limits, execution pipelines, and memory hierarchies.
 
-I have a working proficiency in C++, but am by no means good at it
+Technical Stack:
+* Proficient: C, CUDA, ARM Assembly (AArch64 / Thumb-2), AVR Assembly
+* Familiar: C++, Python
 
-## Projects worth mentioning
-- All of my pinned projects!
-- My small STM32 microkernel
+---
 
-    Finished a round robin co-op scheduler with timeouts, ipc(via mailbox system), and a simple memory allocator
+## Core Engineering Projects
 
-- My almost finished compiler (small_avr_compiler)
-  
-    The ARM one I have pinned is single-pass with a more sophisticated register allocator and register snapshotting. My older and unfinished AVR compiler is written in c++, and is multi-pass so it is kinda interesting
-- Smooth Particle Hydrodynamics
-  
-    Got around to implementing a fast particle rendering and storing system with bounding boxes, and made an effecient parallelized lookup system, but never finished actual fluid dynamics
+### Custom Language Toolchains and Compilers
+* **Multi-Pass Subset-C to ARM64 Compiler:** Architected a multi-pass compiler backend that lowers a functional subset of the C programming language into native AArch64 machine code. Features an optimization pipeline utilizing Chaitin-style graph coloring for global register allocation.
+* **Self-Hostable Thumb-2 Compiler:** Developed a single-pass compiler for a custom scripting language dialect. Implemented greedy register allocation integrated with loop-depth-aware spilling heuristics, lazy flag storage tracking, and register state snapshotting across conditional branch states.
 
-## Interesting stuff outside of Git
-- I spent a few months of my life designing parts of a simple computer in a logic gate simulator.
+### Operating Systems and Bare-Metal Firmware
+* **Custom Cortex-M4 Microkernel / RTOS:** Developed a preemptive, bare-metal real-time operating system from scratch without a Hardware Abstraction Layer (HAL). Implemented a deterministic round-robin co-op scheduler via PendSV interrupts, low-latency mailbox IPC, hardware timer tracking, and a zero-fragmentation localized memory allocator.
+* **Bare-Metal Device Drivers:** Written native AVR Assembly and C drivers for LCD displays and bit-banged PS/2 keyboard matrices utilizing direct memory-mapped register manipulation and hardware interrupts.
 
-    I only got around to making a simple ALU and registers, but it was definitely fun to do. I would recommend at least trying this once.
+### Computer Graphics and High-Performance Simulation (HPC)
+* **Global Illumination Path Tracers:** Engineered two distinct ray-object intersection engines from the ground up:
+  * **CUDA Accelerated Path Tracer:** A parallelized global illumination engine utilizing shared memory allocation and thread-coalescence techniques.
+  * **Library-Free C Path Tracer:** A standalone, pure C ray tracer built with zero external framework dependencies, outputting raw image bytes directly via localized math routines.
+* **Software Rasterization Pipelines:** Developed discrete rendering pipelines to explore resource-constrained vs. massively parallel execution:
+  * **CUDA Parallel Rasterizer:** A high-throughput, hardware-accelerated rasterization pipeline written completely in custom CUDA kernels.
+  * **Cortex-M4 Software Rasterizer:** A highly resource-constrained software engine utilizing optimized floating-point math and frame-buffer optimizations to render geometry under strict microprocessing RAM limits.
+* **CUDA Eulerian Fluid Dynamics Simulator:** Developed a high-performance Computational Fluid Dynamics (CFD) simulation engine. Leveraged GPU parallelism to solve the Navier-Stokes equations natively across uniform grid structures.
 
-**Fun Note:** My profile picture is cool
-<!--
-**Daviddedic2008/Daviddedic2008** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## Connect With Me
+* Email: david.dedic.2008@gmail.com
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Fun Note: My profile picture is cool :)
