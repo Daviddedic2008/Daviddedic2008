@@ -31,6 +31,6 @@ Technical Stack:
 ---
 
 ## Connect With Me
-* Email: david.dedic.2008@gmail.com
+* Email: david.dedic.2008@gmail.com OR ddedic@purdue.edu
 
 Fun Note: My profile picture is cool :)
